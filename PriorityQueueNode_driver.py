@@ -1,0 +1,16 @@
+import PriorityQueueNode
+
+pqn = PriorityQueueNode.PriorityQueueNode()
+print(pqn.is_empty())
+pqn.enqueue(5)
+pqn.enqueue(14)
+pqn.enqueue(6)
+pqn.enqueue(19)
+pqn.enqueue(3)
+print(pqn)
+print(pqn.size())
+print(pqn.is_empty())
+pqn.dequeue()
+print(pqn)
+pqn.dequeue()
+print(pqn.size())
